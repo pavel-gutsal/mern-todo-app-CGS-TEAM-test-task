@@ -1,3 +1,6 @@
+  auth demo
+![desktop](./description/auth.gif)
+
 node version: 18.x
 
 backend: npm install  -->  npm run dev;
@@ -14,9 +17,6 @@ frontend:
   * HttP service class --> axios http request management
   * Styled components --> instead of css files
   * Formik and yup --> form management
-
-  auth demo
-![desktop](./description/auth.gif)
 
   CRUD demo
 ![desktop](./description/app.gif)
