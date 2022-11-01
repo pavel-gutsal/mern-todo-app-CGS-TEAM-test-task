@@ -33,6 +33,7 @@ export const Input = styled.input<InputProp>`
 export const TextArea = styled.textarea<InputProp>`
   resize: none;
   min-height: 60px;
+  height: 300px;
   padding: ${spaceSize.mili} ${spaceSize.hecto};
   border-radius: ${spaceSize.hecto};
   outline: none;

@@ -27,7 +27,7 @@ export const ViewModal: React.FC<Props> = ({ todo, setModalOpen }) => {
       <BackGroundShade onClick={closeModal} />
       <ModalWrapper>
         <ClosingCross src="./assets/close.svg" alt="close" onClick={closeModal} />
-        <ModalTitle>{todo.text}</ModalTitle>
+        <ModalTitle>{todo.title}</ModalTitle>
         <ModalText>Description</ModalText>
         <ModalDescr>{todo.text}</ModalDescr>
         <Label>
