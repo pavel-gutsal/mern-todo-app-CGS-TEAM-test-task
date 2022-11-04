@@ -25,7 +25,7 @@ export const LoginFormSchema = yup.object().shape({
     .required('enter title'),
   password: yup
     .string()
-    .min(6, 'text too short')
+    .min(6, 'password should be at least 6 charackters long')
     .required('enter password')
     .matches(passwordRegex, 'should contain lower, Upper case and numbers with special cherecters'),
 });

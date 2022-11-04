@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import { RotatingLines } from 'react-loader-spinner';
 import { useTodos } from '../../customHooks/useTodos';
-import { StyledTodoContainer, HeaderTitle, HeaderDescr, HeaderActions, StyledHeader, StyledTodoList, Error, LoaderContainer } from './TodoContainer.styles';
+import { StyledTodoContainer, HeaderTitle, HeaderDescr, HeaderActions, StyledHeader, StyledTodoList, Error, LoaderContainer, EmptyContainer, EmptyText } from './TodoContainer.styles';
 import { TodoItem } from '../TodoItem';
 import { ITodo } from '../../types';
 
@@ -13,6 +13,11 @@ export const TodoContainer = () => {
   console.log(todos);
   return (
     <>
+      {todos && todos.length === 0 && (
+        <EmptyContainer>
+          <EmptyText>Todo List is empty</EmptyText>
+        </EmptyContainer>
+      )}
       {todos && todos.length > 0 && (
         <StyledTodoContainer>
           <StyledHeader>

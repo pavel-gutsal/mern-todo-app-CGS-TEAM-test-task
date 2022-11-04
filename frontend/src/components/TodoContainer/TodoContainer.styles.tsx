@@ -111,3 +111,16 @@ export const LoaderContainer = styled.div`
   justify-content: center;
   align-items: center;
 `;
+
+export const EmptyContainer = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+`
+
+export const EmptyText = styled.div`
+  font-size: ${fontSize.deka};
+  color: #3d3d3d;
+`
