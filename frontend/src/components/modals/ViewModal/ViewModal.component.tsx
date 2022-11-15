@@ -4,6 +4,7 @@ import { ViewContainer, BackGroundShade, ModalWrapper, ClosingCross, ModalTitle,
 import { ToggleSwitch } from '../../ToggleSwitch';
 import { Button } from '../../../GlobalStyles/GlobalStyles';
 import { useEditTodo } from '../../../customHooks/useEditTodo.hook';
+import { IMGS } from '../../../assets/index';
 
 type Props = {
   todo: ITodo;
@@ -26,7 +27,7 @@ export const ViewModal: React.FC<Props> = ({ todo, setModalOpen }) => {
     <ViewContainer>
       <BackGroundShade onClick={closeModal} />
       <ModalWrapper>
-        <ClosingCross src="./assets/close.svg" alt="close" onClick={closeModal} />
+        <ClosingCross src={IMGS.close} alt="close" onClick={closeModal} />
         <ModalTitle>{todo.title}</ModalTitle>
         <ModalText>Description</ModalText>
         <ModalDescr>{todo.text}</ModalDescr>

@@ -7,6 +7,7 @@ import { Form, FormElement, Label, Input, Error, FormButton, InputBorder,
 import { colors } from '../../../Theme';
 import { useAppDispatch, useAppSelector } from '../../../app/hooks';
 import { registerUser } from '../../../features/user/userReducer';
+import { IMGS } from '../../../assets';
 
 export const LoginForm = () => {
   const [visiblePassword, setVisiblePassword] = useState(false);
@@ -51,7 +52,7 @@ export const LoginForm = () => {
             <InputBorder
               err={!!(formik.touched.email && formik.errors.email)}
             >
-              <Img src="./assets/email.svg" alt="icon" />
+              <Img src={IMGS.email} alt="email icon" />
               <Input
                 id="email"
                 type="text"
@@ -68,10 +69,10 @@ export const LoginForm = () => {
             <InputBorder
               err={!!(formik.touched.password && formik.errors.password)}
             >
-              <Img src="./assets/password.svg" alt="icon" />
+              <Img src={IMGS.password} alt="icon" />
               <ButtonEye type ="button" onClick={toggleVisiblePassword} >
                 <ImgEye
-                  src={visiblePassword ? "./assets/visible.svg" :"./assets/invisible.svg"}
+                  src={visiblePassword ? IMGS.visible : IMGS.invisible}
                   alt="icon"
                 />
               </ButtonEye>
