@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/mern-todo-app-CGS-TEAM-test-task/static/js/main.5fda9d10.js",
+    "main.js": "/mern-todo-app-CGS-TEAM-test-task/static/js/main.e0fa04fc.js",
     "static/media/invisible.svg": "/mern-todo-app-CGS-TEAM-test-task/static/media/invisible.8d6e6ba7527bbabec1ec7dba3705cd6f.svg",
     "index.html": "/mern-todo-app-CGS-TEAM-test-task/index.html",
     "static/media/visible.svg": "/mern-todo-app-CGS-TEAM-test-task/static/media/visible.c9ed57749d2e51df470f0e493bdc6a22.svg",
     "static/media/password.svg": "/mern-todo-app-CGS-TEAM-test-task/static/media/password.f0e8c9bc7b3bb17c664953f737d31c6d.svg",
     "static/media/email.svg": "/mern-todo-app-CGS-TEAM-test-task/static/media/email.3d5e2be33fe0b7ce34bc43d65f6c4acd.svg",
     "static/media/close.svg": "/mern-todo-app-CGS-TEAM-test-task/static/media/close.d80eba8e9cc7573e58a6daa885472a63.svg",
-    "main.5fda9d10.js.map": "/mern-todo-app-CGS-TEAM-test-task/static/js/main.5fda9d10.js.map"
+    "main.e0fa04fc.js.map": "/mern-todo-app-CGS-TEAM-test-task/static/js/main.e0fa04fc.js.map"
   },
   "entrypoints": [
-    "static/js/main.5fda9d10.js"
+    "static/js/main.e0fa04fc.js"
   ]
 }
